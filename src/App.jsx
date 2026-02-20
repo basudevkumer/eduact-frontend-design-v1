@@ -1,18 +1,18 @@
-import React from 'react'
-import Rootlayout from './rootlayout/Rootlayout'
+import React from "react";
+import Rootlayout from "./rootlayout/Rootlayout";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./page/Home";
 
 const App = () => {
   return (
-     <BrowserRouter>
-     
-     <Routes>
-      <Route element={<Rootlayout />}>
-      
-      </Route>
-     </Routes>
-     
-     </BrowserRouter>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Rootlayout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;

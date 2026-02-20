@@ -1,11 +1,11 @@
 import React from "react";
 import Container from "./Container";
-import { allImages } from "../../helper/imageprovider";
 import { FaLocationDot } from "react-icons/fa6";
 import { FiPhoneCall } from "react-icons/fi";
 import { BiMessageDetail } from "react-icons/bi";
 import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { allImages } from "../../hepler/imageprovider";
 
 const Footer = () => {
   const { footerLogo,blue, footerImage } = allImages;

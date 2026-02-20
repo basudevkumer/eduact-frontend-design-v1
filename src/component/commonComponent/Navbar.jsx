@@ -1,11 +1,11 @@
 import React from "react";
-import { allImages } from "../../helper/imageprovider";
 import Container from "../commonComponent/Container";
 import { IoChevronDownSharp } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
 import { Link } from "react-router";
+import { allImages } from "../../hepler/imageprovider";
 
 const Navbar = () => {
   const { navbarImage } = allImages;
