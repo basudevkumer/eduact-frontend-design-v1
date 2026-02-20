@@ -1,8 +1,17 @@
 import React from 'react'
+import Rootlayout from './rootlayout/Rootlayout'
 
 const App = () => {
   return (
-    <div className='heading-One'>App</div>
+     <BrowserRouter>
+     
+     <Routes>
+      <Route element={<Rootlayout />}>
+      
+      </Route>
+     </Routes>
+     
+     </BrowserRouter>
   )
 }
 
