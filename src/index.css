@@ -1,1 +1,53 @@
+/* =======================for google font================================ */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* tailwind css */
+
 @import "tailwindcss";
+@tailwind components;
+
+/* typography */
+
+@theme {
+  /* for font family */
+  --font-urbanist: "Urbanist", sans-serif;
+  /* color */
+  --color-primary: #2A254D;
+  --color-secondary: #697585;
+  --color-tarnary: #4F5DE4;
+  --color-quaternary:#F57005;
+  
+}
+
+
+@layer components {
+  /* heading */
+  .heading-One{
+    @apply font-urbanist text-[70px]/[70px] font-bold tracking-[-2px]
+  }
+  .heading-two{
+    @apply font-urbanist text-[50px]/[47px] font-bold 
+  }
+  .heading-three{
+    @apply font-urbanist text-[40px]/[47px] font-bold 
+  }
+  .heading-four{
+    @apply font-urbanist text-[32px]/[26px] font-bold 
+  }
+  .heading-six{
+    @apply font-urbanist text-[24px]/[26px] font-bold 
+  }
+  /* paragraph */
+  .paragraph-semi{
+     @apply font-urbanist text-[16px]/[26px] font-semibold 
+  }
+  .paragraph-bold{
+     @apply font-urbanist text-[16px]/[26px] font-bold 
+  }
+  .paragraph-bold-eighteen{
+     @apply font-urbanist text-[18px]/[26px] font-bold 
+  }
+  .paragraph-bold-twenty{
+     @apply font-urbanist text-[20px] font-bold 
+  }
+}
