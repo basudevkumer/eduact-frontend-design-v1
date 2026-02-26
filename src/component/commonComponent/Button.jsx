@@ -1,6 +1,6 @@
 import React from "react";
 
-const Button = (className, children, icon) => {
+const Button = ({className, children, icon}) => {
   return (
     <button
       className={`cursor-pointer font-urbanist   rounded-[6px] px-[32px] py-[19px] bg-[#F57005] text-white font-bold text-lg flex items-center gap-x-[10px] overflow-hidden  relative  ${className} `}

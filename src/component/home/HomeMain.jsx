@@ -1,8 +1,12 @@
-import React from 'react'
+
+
+import Banner from './banner/Index'
 
 const HomeMain = () => {
   return (
-    <div>HomeMain</div>
+    <>
+     <Banner/>
+    </>
   )
 }
 
