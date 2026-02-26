@@ -10,6 +10,9 @@ import BannerNet from "../assets/images/bannar-net.png";
 import BannerVector from "../assets/images/bannar-vetor.png";
 import BannerSnake from "../assets/images/bannar-snake.png";
 import BannerPencil from "../assets/images/bannar-pencil.png";
+import HomeAboutBanner from "../assets/images/about-banner.png";
+import HomeAboutFram from "../assets/images/banner-about-fram.png";
+import HomeAboutFlexible from "../assets/images/home-about-flexible.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -24,4 +27,7 @@ export const allImages = {
   bannerVector: BannerVector,
   bannerSnake: BannerSnake,
   bannerPencil: BannerPencil,
+  homeAboutBanner: HomeAboutBanner,
+  homeAboutFlexible: HomeAboutFlexible,
+  homeAboutFram: HomeAboutFram,
 };

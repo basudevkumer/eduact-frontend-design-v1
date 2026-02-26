@@ -19,7 +19,7 @@ const Banner = () => {
 
   const { rightArrow } = allIcons;
   return (
-    <section className="py-[125px] bg-quinary">
+    <section className="pt-[135px] pb-[180px] bg-quinary">
       <Container>
         <div className="grid grid-cols-2 gap-x-[50px] items-center">
           <div className="relative">
@@ -29,7 +29,7 @@ const Banner = () => {
                 alt="bannerSnake"
               />
             </figure>
-            <figure className="absolute bottom-[-150px] left-[-130px]">
+            <figure className="absolute bottom-[-130px] left-[-130px]">
               <img
                 src={bannerPencil}
                 alt="bannerPenceil"
@@ -55,7 +55,7 @@ const Banner = () => {
           </div>
           <div className="relative z-50">
             <figure className="absolute top-[-95px] left-0 z-[-1]">
-              <img src={bannerBlue} alt="bannerBlue" />
+              <img src={bannerBlue} alt="bannerBlue" className="w-[818px]" />
             </figure>
             <figure className="absolute top-full left-1/2  -translate-1/2 animate-bounce">
               <img src={bannerBook} alt="bannerBook" />
