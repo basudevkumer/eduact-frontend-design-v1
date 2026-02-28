@@ -1,9 +1,10 @@
 import React from "react";
+import { FaChevronRight } from "react-icons/fa";
 
 
 const ServiceCard = ({icon,title,description}) => {
   return (
-    <div className=" rounded-[10px]  bg-white     flex flex-col items-center relative  overflow-hidden group">
+    <div className=" relative hover:translate-y-[-10px]  transition duration-500 ease-in-out rounded-[10px]  bg-white     flex flex-col items-center relative  overflow-hidden group">
       <div className='bg-[#F6F6F6] w-[492px] h-[492px] rounded-full absolute top-[-85%]'></div>
       <span className="w-[166px] h-[166px]    bg-[#F57005]    text-white text-[70px] rounded-full flex items-end justify-center pb-4 relative translate-y-[-33%] group-hover:bg-[#4F5DE4] transition duration-300 ease-in-out ">
         {icon}

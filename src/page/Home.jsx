@@ -1,10 +1,16 @@
-import React from 'react'
-import HomeMain from '../component/home/HomeMain'
+import HomeAbout from "../component/home/about/Index";
+import Banner from "../component/home/banner/Index";
+import HomeServices from "../component/home/services/Index";
+
 
 const Home = () => {
   return (
-    <HomeMain/>
-  )
-}
+    <>
+      <Banner />
+      <HomeAbout />
+      <HomeServices/>
+    </>
+  );
+};
 
-export default Home
+export default Home;

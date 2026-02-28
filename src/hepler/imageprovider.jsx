@@ -13,6 +13,7 @@ import BannerPencil from "../assets/images/bannar-pencil.png";
 import HomeAboutBanner from "../assets/images/about-banner.png";
 import HomeAboutFram from "../assets/images/banner-about-fram.png";
 import HomeAboutFlexible from "../assets/images/home-about-flexible.png";
+import HomeServicesBannar from "../assets/images/services-banner.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -30,4 +31,5 @@ export const allImages = {
   homeAboutBanner: HomeAboutBanner,
   homeAboutFlexible: HomeAboutFlexible,
   homeAboutFram: HomeAboutFram,
+  homeServicesBanner: HomeServicesBannar,
 };
