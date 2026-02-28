@@ -43,4 +43,32 @@ const homeServicesArr = [
   },
 ];
 
-export { homeServicesArr };
+const homeStatsData = [
+  {
+    id: 1,
+    value: 30.3,
+    suffix: "k",
+    label: "Student Enrolled",
+  },
+  {
+    id: 2,
+    value: 40.5,
+    suffix: "k",
+    label: "Class Completed",
+  },
+  {
+    id: 3,
+    value: 88.9,
+    suffix: "%",
+    label: "Satisfaction Rate",
+  },
+  {
+    id: 4,
+    value: 6.30,
+    suffix: "+",
+    label: "Top Instructors",
+  },
+];
+
+
+export { homeServicesArr,homeStatsData };

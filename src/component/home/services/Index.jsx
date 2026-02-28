@@ -2,36 +2,60 @@ import React from "react";
 import Container from "../../commonComponent/Container";
 import { allImages } from "../../../hepler/imageprovider";
 import ServiceCard from "../../commonComponent/ServiceCard";
-import { homeServicesArr } from "../../../hepler/projectArryObj";
+import { homeServicesArr, homeStatsData } from "../../../hepler/projectArryObj";
+import ServicesNumber from "../../commonComponent/ServicesNumber";
 
 const HomeServices = () => {
-  const { homeServicesBanner, homeAboutFram } = allImages;
+  // for images
+  const { homeServicesBanner, homeAboutFram, homeServicesBanner2 } = allImages;
   return (
-    <section
-      className="py-[120px] bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${homeServicesBanner})` }}
-    >
-      <Container>
-        <div>
-          <div className="flex flex-col items-center gap-y-6">
-            <div className="flex items-center gap-x-4">
-              <h6 className="text-tarnary heading-six">Our Service</h6>
+    <section>
+      <div
+        className="py-[120px] bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${homeServicesBanner})` }}
+      >
+        <Container>
+          <div>
+            <div className="flex flex-col items-center gap-y-6">
+              <div className="flex items-center gap-x-4">
+                <h6 className="text-tarnary heading-six">Our Service</h6>
 
-              <figure>
-                <img src={homeAboutFram} alt="homeAboutFram" />
-              </figure>
+                <figure>
+                  <img src={homeAboutFram} alt="homeAboutFram" />
+                </figure>
+              </div>
+              <h3 className="text-primary heading-three max-w-[592px] text-center">
+                Creating a Lifelong Learning Best Community{" "}
+              </h3>
             </div>
-            <h3 className="text-primary heading-three max-w-[592px] text-center">
-              Creating a Lifelong Learning Best Community{" "}
-            </h3>
+            <div className="mt-[80px] grid grid-cols-1 md: grid-cols-2 lg:grid-cols-4 gap-9">
+              {homeServicesArr.map((items, index) => {
+                return (
+                  <ServiceCard
+                    key={index}
+                    icon={items.icon}
+                    title={items.title}
+                    description={items.description}
+                  />
+                );
+              })}
+            </div>
           </div>
-          <div className="mt-[80px] grid grid-cols-1 md: grid-cols-2 lg:grid-cols-4 gap-9">
-            {homeServicesArr.map((items, index) => {
-              return <ServiceCard key={index} icon={items.icon} title={items.title} description={items.description}/>;
+        </Container>
+      </div>
+      <div
+        className="pb-[120px] mt-[120px]  bg-cover bg-center bg-no-repeat "
+        style={{ backgroundImage: `url(${homeServicesBanner2})` }}
+      >
+        <Container>
+          <div className="grid grid-cols-4 gap-[66px]">
+            {homeStatsData.map((items,index)=>{
+           return     <ServicesNumber label={items.label} suffix={items.suffix} value={items.value} />
+
             })}
           </div>
-        </div>
-      </Container>
+        </Container>
+      </div>
     </section>
   );
 };
