@@ -15,6 +15,8 @@ import HomeAboutFram from "../assets/images/banner-about-fram.png";
 import HomeAboutFlexible from "../assets/images/home-about-flexible.png";
 import HomeServicesBannar from "../assets/images/services-banner.png";
 import HomeServicesBannar2 from "../assets/images/services-banner2.png";
+import PaperImages from "../assets/images/paper.png";
+import RoketImages from "../assets/images/roket.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -34,4 +36,6 @@ export const allImages = {
   homeAboutFram: HomeAboutFram,
   homeServicesBanner: HomeServicesBannar,
   homeServicesBanner2: HomeServicesBannar2,
+  paperImage: PaperImages,
+  roketImage: RoketImages,
 };

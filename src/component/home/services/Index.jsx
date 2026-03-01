@@ -9,7 +9,7 @@ const HomeServices = () => {
   // for images
   const { homeServicesBanner, homeAboutFram, homeServicesBanner2 } = allImages;
   return (
-    <section>
+    <section className="mb-[82px]">
       <div
         className="py-[120px] bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${homeServicesBanner})` }}
@@ -49,9 +49,15 @@ const HomeServices = () => {
       >
         <Container>
           <div className="grid grid-cols-4 gap-[66px]">
-            {homeStatsData.map((items,index)=>{
-           return     <ServicesNumber label={items.label} suffix={items.suffix} value={items.value} />
-
+            {homeStatsData.map((items, index) => {
+              return (
+                <ServicesNumber
+                  label={items.label}
+                  suffix={items.suffix}
+                  value={items.value}
+                  key={index}
+                />
+              );
             })}
           </div>
         </Container>
