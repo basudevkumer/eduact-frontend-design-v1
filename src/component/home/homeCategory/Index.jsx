@@ -16,7 +16,7 @@ const HomeCategory = () => {
   return (
     <section>
       <div
-        className="mt-[120px] py-[120px] bg-cover bg-center bg-no-repeat"
+        className="mt-[120px] py-[120px] bg-cover object-cover  bg-no-repeat"
         style={{ backgroundImage: `url(${homeCategoryImages})` }}
       >
         <Container>
