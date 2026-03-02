@@ -26,7 +26,7 @@ function SamplePrevArrow(props) {
 
 const CarouselOne = () => {
   const settings = {
-    dots: true,
+    
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,

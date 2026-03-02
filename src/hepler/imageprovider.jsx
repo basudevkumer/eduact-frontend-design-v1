@@ -17,6 +17,13 @@ import HomeServicesBannar from "../assets/images/services-banner.png";
 import HomeServicesBannar2 from "../assets/images/services-banner2.png";
 import PaperImages from "../assets/images/paper.png";
 import RoketImages from "../assets/images/roket.png";
+import HomeCategory from "../assets/images/home-category.png";
+import HomeAboutFram2 from "../assets/images/homeAboutFram2.png";
+import CategoryOne from "../assets/images/categoriesOne.png";
+import CategoryTwo from "../assets/images/categoriesTwo.png";
+import CategoryThree from "../assets/images/categoriesThree.png";
+import CategoryFour from "../assets/images/categoriesFour.png";
+import CategoryFive from "../assets/images/categoriesImages5.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -34,8 +41,18 @@ export const allImages = {
   homeAboutBanner: HomeAboutBanner,
   homeAboutFlexible: HomeAboutFlexible,
   homeAboutFram: HomeAboutFram,
+  homeAboutFram2: HomeAboutFram2,
   homeServicesBanner: HomeServicesBannar,
   homeServicesBanner2: HomeServicesBannar2,
   paperImage: PaperImages,
   roketImage: RoketImages,
+  homeCategoryImages: HomeCategory,
+
+  categoryImagesArray: [
+    { id: 1, images: CategoryOne, title: "Business Management" },
+    { id: 2, images: CategoryTwo, title: "Computer Science" },
+    { id: 3, images: CategoryThree, title: "Personal Development" },
+    { id: 4, images: CategoryFour, title: "Arts and Design" },
+  ],
+  categoryImagesFive  : CategoryFive
 };

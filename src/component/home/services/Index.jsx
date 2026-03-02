@@ -1,9 +1,9 @@
 import React from "react";
-import Container from "../../commonComponent/Container";
+import Container from "../../common/Container";
 import { allImages } from "../../../hepler/imageprovider";
-import ServiceCard from "../../commonComponent/ServiceCard";
+import ServiceCard from "../../common/ServiceCard";
 import { homeServicesArr, homeStatsData } from "../../../hepler/projectArryObj";
-import ServicesNumber from "../../commonComponent/ServicesNumber";
+import ServicesNumber from "../../common/ServicesNumber";
 
 const HomeServices = () => {
   // for images
@@ -16,7 +16,7 @@ const HomeServices = () => {
       >
         <Container>
           <div>
-            <div className="flex flex-col items-center gap-y-6">
+            <div className="flex flex-col items-center gap-y-[30px]">
               <div className="flex items-center gap-x-4">
                 <h6 className="text-tarnary heading-six">Our Service</h6>
 

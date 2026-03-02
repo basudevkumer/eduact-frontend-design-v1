@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "../../commonComponent/Container";
+import Container from "../../common/Container";
 import { allImages } from "../../../hepler/imageprovider";
-import Button from "../../commonComponent/Button";
+import Button from "../../common/Button";
 import allIcons from "../../../hepler/iconProvider";
 
 const Banner = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../commonComponent/Container";
+import Container from "../common/Container";
 import { IoChevronDownSharp } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io";

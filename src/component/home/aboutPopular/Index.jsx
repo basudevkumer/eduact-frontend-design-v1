@@ -1,5 +1,5 @@
 import React from 'react'
-import PopularFull from '../../commonComponent/PopularFull'
+import PopularFull from '../../common/PopularFull'
 
 const AboutPopular = () => {
   return (

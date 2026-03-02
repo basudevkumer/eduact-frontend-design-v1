@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../../commonComponent/Container";
+import Container from "../../common/Container";
 import allIcons from "../../../hepler/iconProvider";
 import { allImages } from "../../../hepler/imageprovider";
-import Button from "../../commonComponent/Button"
+import Button from "../../common/Button"
 
 const HomeAbout = () => {
   // for images & icon
