@@ -26,6 +26,8 @@ import CategoryFour from "../assets/images/categoriesFour.png";
 import CategoryFive from "../assets/images/categoriesImages5.png";
 import HomeTeam from "../assets/images/homeTeamImage.png";
 import Evanto from "../assets/images/envato.png";
+import FeedBack from "../assets/images/feedback-bannar.png";
+import FeedBackComment from "../assets/images/feedback-comment.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -59,4 +61,6 @@ export const allImages = {
   categoryImagesFive: CategoryFive,
   hometeam: HomeTeam,
   evantoImages: Evanto,
+  feedbackBannar: FeedBack,
+  feedbackComment: FeedBackComment,
 };

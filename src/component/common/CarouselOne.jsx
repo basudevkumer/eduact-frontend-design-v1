@@ -10,7 +10,9 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div onClick={onClick}>
-      <span className="text-lg text-white px-3 py-2 rounded-md bg-tarnary inline-block z-10 absolute  cursor-pointer  right-16 top-[-70px]">{carocellArrow[1].icon}</span>
+      <span className="text-lg text-white px-3 py-2 rounded-md bg-tarnary inline-block z-10 absolute  cursor-pointer  right-16 top-[-70px]">
+        {carocellArrow[1].icon}
+      </span>
     </div>
   );
 }
@@ -19,14 +21,15 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div onClick={onClick}>
-      <span className="text-lg text-white px-3 py-2 rounded-md bg-tarnary inline-block z-10 absolute top-[-70px] right-0 cursor-pointer ">{carocellArrow[0].icon}</span>
+      <span className="text-lg text-white px-3 py-2 rounded-md bg-tarnary inline-block z-10 absolute top-[-70px] right-0 cursor-pointer ">
+        {carocellArrow[0].icon}
+      </span>
     </div>
   );
 }
 
 const CarouselOne = () => {
   const settings = {
-    
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
