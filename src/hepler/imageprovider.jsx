@@ -24,6 +24,8 @@ import CategoryTwo from "../assets/images/categoriesTwo.png";
 import CategoryThree from "../assets/images/categoriesThree.png";
 import CategoryFour from "../assets/images/categoriesFour.png";
 import CategoryFive from "../assets/images/categoriesImages5.png";
+import HomeTeam from "../assets/images/homeTeamImage.png";
+import Evanto from "../assets/images/envato.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -54,5 +56,7 @@ export const allImages = {
     { id: 3, images: CategoryThree, title: "Personal Development" },
     { id: 4, images: CategoryFour, title: "Arts and Design" },
   ],
-  categoryImagesFive  : CategoryFive
+  categoryImagesFive: CategoryFive,
+  hometeam: HomeTeam,
+  evantoImages: Evanto,
 };

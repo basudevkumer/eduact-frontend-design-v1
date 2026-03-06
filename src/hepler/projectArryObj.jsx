@@ -213,4 +213,43 @@ const popularCourses = [
   },
 ];
 
-export { homeServicesArr, homeStatsData,popularCourses };
+const teamMembers = [
+  {
+    id: 1,
+    name: "Devon Lane",
+    designation: "UI/UX Designer",
+    image: "path/to/devon.jpg",
+    socials: {
+      facebook: "https://facebook.com/devon",
+      linkedin: "https://linkedin.com/in/devon",
+      youtube: "https://youtube.com/devon",
+    },
+    themeColor: "blue", 
+  },
+  {
+    id: 2,
+    name: "Cody Fisher",
+    designation: "Frontend Developer",
+    image: "path/to/cody.jpg",
+    socials: {
+      facebook: "https://facebook.com/cody",
+      linkedin: "https://linkedin.com/in/cody",
+      youtube: "https://youtube.com/cody",
+    },
+    themeColor: "orange", 
+  },
+  {
+    id: 3,
+    name: "Jane Cooper",
+    designation: "Product Manager",
+    image: "path/to/jane.jpg",
+    socials: {
+      facebook: "https://facebook.com/jane",
+      linkedin: "https://linkedin.com/in/jane",
+      youtube: "https://youtube.com/jane",
+    },
+    themeColor: "orange",
+  },
+];
+
+export { homeServicesArr, homeStatsData, popularCourses ,teamMembers};

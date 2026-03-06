@@ -3,7 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
-const Capsule = ({teacherName, department}) => {
+const Capsule = ({ teacherName, department }) => {
   return (
     <div className="w-[415px] h-[549px]      group relative flex items-end">
       <div className="bg-[#152B4A] absolute w-[352px] h-[513px]  rounded-full overflow-hidden top-0 left-1/2 -translate-x-1/2">
@@ -18,17 +18,17 @@ const Capsule = ({teacherName, department}) => {
           </div>
           <ul className="flex gap-x-2">
             <li className="text-lg text-white p-2 border-2 border-[#4F5DE4] cursor-pointer  rounded-full">
-              <a href="#">
+              <a href="https://facebook.com">
                 <FaFacebookF />
               </a>
             </li>
             <li className="text-lg text-white p-2 border-2 border-[#4F5DE4] cursor-pointer  rounded-full">
-              <a href="#">
+              <a href="https://linkedin.com">
                 <FaLinkedinIn />
               </a>
             </li>
             <li className="text-lg text-white p-2 border-2 border-[#4F5DE4] cursor-pointer  rounded-full">
-              <a href="#">
+              <a href="https://youtube.com">
                 <FaYoutube />
               </a>
             </li>

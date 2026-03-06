@@ -51,7 +51,7 @@ const HomeCategory = () => {
           </div>
         </Container>
       </div>
-      <div className="mb-[114px]">
+      <div className="">
         <Container>
           <div
             className="py-[80px] pl-[113px]  bg-cover bg-center bg-no-repeat"
