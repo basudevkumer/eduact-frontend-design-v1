@@ -54,6 +54,14 @@
   }
 }
 
+/* for input */
+
+input:focus-visible {
+    outline-offset: 0px;
+    outline: none;
+}
+
+
 
 .l{
   color: #152B4A;

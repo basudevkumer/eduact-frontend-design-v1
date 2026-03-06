@@ -224,7 +224,7 @@ const teamMembers = [
       linkedin: "https://linkedin.com/in/devon",
       youtube: "https://youtube.com/devon",
     },
-    themeColor: "blue", 
+    themeColor: "blue",
   },
   {
     id: 2,
@@ -236,7 +236,7 @@ const teamMembers = [
       linkedin: "https://linkedin.com/in/cody",
       youtube: "https://youtube.com/cody",
     },
-    themeColor: "orange", 
+    themeColor: "orange",
   },
   {
     id: 3,
@@ -252,4 +252,46 @@ const teamMembers = [
   },
 ];
 
-export { homeServicesArr, homeStatsData, popularCourses ,teamMembers};
+const blogData = [
+  {
+    id: 1,
+    cardImages:
+      "https://img.freepik.com/free-photo/enchanted-forest-fantasy-background_23-2151910716.jpg?semt=ais_rp_progressive&w=740&q=80",
+    userImages:
+      "https://img.freepik.com/free-photo/enchanted-forest-fantasy-background_23-2151910716.jpg?semt=ais_rp_progressive&w=740&q=80",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 2,
+    cardImages:
+      "https://i.natgeofe.com/n/cddbeec0-8cd7-4d70-876a-fa51ce714867/night-vision-2.jpg",
+    userImages:
+      "https://i.natgeofe.com/n/cddbeec0-8cd7-4d70-876a-fa51ce714867/night-vision-2.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 3,
+    cardImages:
+      "https://png.pngtree.com/thumb_back/fh260/background/20250326/pngtree-mystical-enchanted-fairy-forest-illustration-with-magical-trees-and-glowing-fireflies-image_17147420.jpg",
+    userImages:
+      "https://png.pngtree.com/thumb_back/fh260/background/20250326/pngtree-mystical-enchanted-fairy-forest-illustration-with-magical-trees-and-glowing-fireflies-image_17147420.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+];
+
+export {
+  homeServicesArr,
+  homeStatsData,
+  popularCourses,
+  teamMembers,
+  blogData,
+};

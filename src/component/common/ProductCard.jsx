@@ -2,6 +2,7 @@ import React from 'react'
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegEye } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
+import ButtonTwo from './ButtonTwo';
 
 
 const ProductCard = ({productImage,productName,productPrice}) => {
@@ -26,7 +27,7 @@ const ProductCard = ({productImage,productName,productPrice}) => {
                     <li className='text-lg text-[#F57005]'><FaStar/></li>
                 </ul>
             </div>
-            <button className='font-urbanist text-base font-bold py-[14px] px-[32px] rounded-[6px] bg-[#F57005] text-white cursor-pointer'>Add to Cart</button>
+          <ButtonTwo  children={"Add to Cart"}/>
         </div>
     </div>
   )

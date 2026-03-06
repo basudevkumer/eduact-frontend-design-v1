@@ -28,6 +28,7 @@ import HomeTeam from "../assets/images/homeTeamImage.png";
 import Evanto from "../assets/images/envato.png";
 import FeedBack from "../assets/images/feedback-bannar.png";
 import FeedBackComment from "../assets/images/feedback-comment.png";
+import Subscribe from "../assets/images/subscribe.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -63,4 +64,5 @@ export const allImages = {
   evantoImages: Evanto,
   feedbackBannar: FeedBack,
   feedbackComment: FeedBackComment,
+  subscribeImages: Subscribe,
 };
