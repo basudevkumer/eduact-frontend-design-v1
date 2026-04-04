@@ -29,6 +29,8 @@ import Evanto from "../assets/images/envato.png";
 import FeedBack from "../assets/images/feedback-bannar.png";
 import FeedBackComment from "../assets/images/feedback-comment.png";
 import Subscribe from "../assets/images/subscribe.png";
+import Mission from "../assets/images/mission.png";
+import Vision from "../assets/images/vision.png";
 
 export const allImages = {
   navbarImage: NavImage,
@@ -65,4 +67,6 @@ export const allImages = {
   feedbackBannar: FeedBack,
   feedbackComment: FeedBackComment,
   subscribeImages: Subscribe,
+  mission: Mission,
+  vision: Vision,
 };

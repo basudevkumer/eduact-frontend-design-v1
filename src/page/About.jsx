@@ -1,12 +1,14 @@
-import React from 'react'
-import Bredcrumb from '../component/common/Bredcrumb'
+import React from "react";
+import Bredcrumb from "../component/common/Bredcrumb";
+import AboutUs from "../component/about/Index";
 
 const About = () => {
   return (
     <>
-    <Bredcrumb />
+      <Bredcrumb />
+      <AboutUs />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
