@@ -5,7 +5,7 @@ import { homeStatsData } from "../../../hepler/projectArryObj";
 
 const StatsBar = () => {
   return (
-    <section>
+    <section className="pb-[115px]  border-b border-[#E5E5E5]">
       <Container>
         <div className="grid grid-cols-4 gap-[66px]">
           {homeStatsData.map((items, StatsBar) => {
