@@ -286,12 +286,191 @@ const blogData = [
     userName: "Darrell Steward",
     userDepartment: "FRONTED DEVELOPER",
   },
+  {
+    id: 4,
+    cardImages:
+      "https://img.freepik.com/free-photo/enchanted-forest-fantasy-background_23-2151910716.jpg?semt=ais_rp_progressive&w=740&q=80",
+    userImages:
+      "https://img.freepik.com/free-photo/enchanted-forest-fantasy-background_23-2151910716.jpg?semt=ais_rp_progressive&w=740&q=80",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 5,
+    cardImages:
+      "https://i.natgeofe.com/n/cddbeec0-8cd7-4d70-876a-fa51ce714867/night-vision-2.jpg",
+    userImages:
+      "https://i.natgeofe.com/n/cddbeec0-8cd7-4d70-876a-fa51ce714867/night-vision-2.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 6,
+    cardImages:
+      "https://png.pngtree.com/thumb_back/fh260/background/20250326/pngtree-mystical-enchanted-fairy-forest-illustration-with-magical-trees-and-glowing-fireflies-image_17147420.jpg",
+    userImages:
+      "https://png.pngtree.com/thumb_back/fh260/background/20250326/pngtree-mystical-enchanted-fairy-forest-illustration-with-magical-trees-and-glowing-fireflies-image_17147420.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 7,
+    cardImages:
+      "https://img.freepik.com/free-photo/enchanted-forest-fantasy-background_23-2151910716.jpg?semt=ais_rp_progressive&w=740&q=80",
+    userImages:
+      "https://img.freepik.com/free-photo/enchanted-forest-fantasy-background_23-2151910716.jpg?semt=ais_rp_progressive&w=740&q=80",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 8,
+    cardImages:
+      "https://i.natgeofe.com/n/cddbeec0-8cd7-4d70-876a-fa51ce714867/night-vision-2.jpg",
+    userImages:
+      "https://i.natgeofe.com/n/cddbeec0-8cd7-4d70-876a-fa51ce714867/night-vision-2.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
+  {
+    id: 9,
+    cardImages:
+      "https://png.pngtree.com/thumb_back/fh260/background/20250326/pngtree-mystical-enchanted-fairy-forest-illustration-with-magical-trees-and-glowing-fireflies-image_17147420.jpg",
+    userImages:
+      "https://png.pngtree.com/thumb_back/fh260/background/20250326/pngtree-mystical-enchanted-fairy-forest-illustration-with-magical-trees-and-glowing-fireflies-image_17147420.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTED DEVELOPER",
+  },
 ];
 
+
+
+const blogDatas = [
+  {
+    id: 1,
+    cardImages: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600",
+    userImages: "https://randomuser.me/api/portraits/men/1.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 2,
+    cardImages: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
+    userImages: "https://randomuser.me/api/portraits/women/2.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 3,
+    cardImages: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600",
+    userImages: "https://randomuser.me/api/portraits/men/3.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 4,
+    cardImages: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600",
+    userImages: "https://randomuser.me/api/portraits/women/4.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 5,
+    cardImages: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600",
+    userImages: "https://randomuser.me/api/portraits/men/5.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 6,
+    cardImages: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600",
+    userImages: "https://randomuser.me/api/portraits/women/6.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 7,
+    cardImages: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600",
+    userImages: "https://randomuser.me/api/portraits/men/7.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 8,
+    cardImages: "https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?w=600",
+    userImages: "https://randomuser.me/api/portraits/women/8.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 9,
+    cardImages: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=600",
+    userImages: "https://randomuser.me/api/portraits/men/9.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 10,
+    cardImages: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600",
+    userImages: "https://randomuser.me/api/portraits/women/10.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 11,
+    cardImages: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600",
+    userImages: "https://randomuser.me/api/portraits/men/11.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+  {
+    id: 12,
+    cardImages: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600",
+    userImages: "https://randomuser.me/api/portraits/women/12.jpg",
+    time: "26 Mar, 2023",
+    heading: "The Complete Web Developer Guideline 2023",
+    userName: "Darrell Steward",
+    userDepartment: "FRONTEND DEVELOPER",
+  },
+];
 export {
   homeServicesArr,
   homeStatsData,
   popularCourses,
   teamMembers,
   blogData,
+  blogDatas
 };

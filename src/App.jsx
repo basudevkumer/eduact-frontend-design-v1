@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
 import About from "./page/About";
 import ContactPg from "./page/ContactPg";
+import BlogPG from "./page/BlogPG";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactPg />} />
+          <Route path="/blog" element={<BlogPG />} /> 
         </Route>
       </Routes>
     </BrowserRouter>
