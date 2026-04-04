@@ -1,4 +1,5 @@
-import HomeAbout from "../component/home/about/Index";
+
+import HomeAbout from "../component/home/aboutHome/Index";
 import AboutPopular from "../component/home/aboutPopular/Index";
 import Banner from "../component/home/banner/Index";
 import FeedBack from "../component/home/feedback/Index";
@@ -17,9 +18,9 @@ const Home = () => {
       <AboutPopular />
       <HomeCategory />
       <HomeTeam />
-      <FeedBack/>
-      <HomeBlog/>
-      <Subscribe/>
+      <FeedBack />
+      <HomeBlog />
+      <Subscribe />
     </>
   );
 };

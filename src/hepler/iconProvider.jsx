@@ -8,8 +8,6 @@ import { PiNetworkFill } from "react-icons/pi";
 
 import { FaArrowLeftLong } from "react-icons/fa6";
 
-
-
 const allIcons = {
   rightArrow: <FaArrowRightLong />,
   done: <MdOutlineDone />,
@@ -19,10 +17,30 @@ const allIcons = {
     { id: 3, icon: <MdVideoLibrary /> },
     { id: 4, icon: <PiNetworkFill /> },
   ],
-  carocellArrow : [
+  carocellArrow: [
     { id: 1, icon: <FaArrowRightLong /> },
     { id: 2, icon: <FaArrowLeftLong /> },
-  ]
+  ],
+  contactData: [
+    {
+      id: 1,
+      icon: <BsTelephone size={32} />,
+      label: "Have any question?",
+      value: "Free + 23 (000)-8050",
+    },
+    {
+      id: 2,
+      icon: <MdOutlineEmail size={32} />,
+      label: "Send Email",
+      value: "Demo@gmail.com",
+    },
+    {
+      id: 3,
+      icon: <GoLocation size={32} />,
+      label: "Visit Anytime",
+      value: "6391 Elgin St. Delaware 10299",
+    },
+  ],
 };
 
 export default allIcons;
