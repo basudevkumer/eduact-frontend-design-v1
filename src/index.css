@@ -66,3 +66,19 @@ input:focus-visible {
 .l{
   color: #152B4A;
 }
+
+/* for scrollbar */
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
