@@ -3,6 +3,7 @@ import Container from "../../common/Container";
 import { allImages } from "../../../hepler/imageprovider";
 import Button from "../../common/Button"
 import allIcons from "../../../hepler/iconProvider";
+import SectionHeader from "../../common/SectionHeader";
 
 const HomeCategory = () => {
   // for icon and images
@@ -21,16 +22,7 @@ const HomeCategory = () => {
       >
         <Container>
           <div className="flex flex-col items-center gap-y-[30px]">
-            <div className="flex items-center gap-x-4">
-              <h6 className="text-white heading-six">Our Categories</h6>
-
-              <figure>
-                <img src={homeAboutFram2} alt="homeAboutFram" />
-              </figure>
-            </div>
-            <h3 className="text-white heading-three max-w-[592px] text-center">
-              Favorite Topics To Learn
-            </h3>
+            <SectionHeader title={"Our Categories"} subTitle={"   Favorite Topics To Learn"} titleClassName={"text-white"} subTitleClassName={"max-w-[592px]  !text-white "}/>
           </div>
           <div className="mt-[80px] bg-white rounded-[5px] overflow-hidden grid grid-cols-4">
             {categoryImagesArray.map((items) => {

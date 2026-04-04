@@ -4,6 +4,7 @@ import { allImages } from "../../../hepler/imageprovider";
 import ServiceCard from "../../common/ServiceCard";
 import { homeServicesArr, homeStatsData } from "../../../hepler/projectArryObj";
 import ServicesNumber from "../../common/ServicesNumber";
+import SectionHeader from "../../common/SectionHeader";
 
 const HomeServices = () => {
   // for images
@@ -17,16 +18,7 @@ const HomeServices = () => {
         <Container>
           <div>
             <div className="flex flex-col items-center gap-y-[30px]">
-              <div className="flex items-center gap-x-4">
-                <h6 className="text-tarnary heading-six">Our Service</h6>
-
-                <figure>
-                  <img src={homeAboutFram} alt="homeAboutFram" />
-                </figure>
-              </div>
-              <h3 className="text-primary heading-three max-w-[592px] text-center">
-                Creating a Lifelong Learning Best Community{" "}
-              </h3>
+              <SectionHeader title={"Our Service"} subTitle={"Creating a Lifelong Learning Best Community"} subTitleClassName={"max-w-[592px]"}/>
             </div>
             <div className="mt-[80px] grid grid-cols-1 md: grid-cols-2 lg:grid-cols-4 gap-9">
               {homeServicesArr.map((items, index) => {

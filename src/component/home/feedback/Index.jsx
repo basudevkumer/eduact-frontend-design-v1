@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Container from "../../common/Container";
 import { allImages } from "../../../hepler/imageprovider";
 import allIcons from "../../../hepler/iconProvider";
+import SectionHeader from "../../common/SectionHeader";
 
 const FeedBack = () => {
   // for images & icons
@@ -57,16 +58,7 @@ const FeedBack = () => {
       >
         <Container>
           <div className="flex flex-col items-center gap-y-6 pt-[120px] ">
-            <div className="flex items-center gap-x-4">
-              <h6 className="text-tarnary heading-six">Our Team</h6>
-
-              <figure>
-                <img src={homeAboutFram} alt="homeAboutFram" />
-              </figure>
-            </div>
-            <h3 className="text-primary heading-three max-w-[592px] text-center">
-              What Our Student Feedback
-            </h3>
+            <SectionHeader title={"Our Team"} subTitle={"What Our Student Feedback"} />
           </div>
         </Container>
       </div>

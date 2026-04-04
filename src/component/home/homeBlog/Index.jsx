@@ -3,6 +3,7 @@ import Container from "../../common/Container";
 import { allImages } from "../../../hepler/imageprovider";
 import { blogData } from "../../../hepler/projectArryObj";
 import BlogCard from "../../common/BlogCard"
+import SectionHeader from "../../common/SectionHeader";
 
 const HomeBlog = () => {
   // for icons & images
@@ -12,16 +13,7 @@ const HomeBlog = () => {
       <Container>
         <div>
           <div className="flex flex-col items-center gap-y-6">
-            <div className="flex items-center gap-x-4">
-              <h6 className="text-tarnary heading-six">Latest Blog</h6>
-
-              <figure>
-                <img src={homeAboutFram} alt="homeAboutFram" />
-              </figure>
-            </div>
-            <h3 className="text-primary heading-three max-w-[592px] text-center">
-              Latest Updates & Articles
-            </h3>
+            <SectionHeader title={"Latest Blog"} subTitle={"Latest Updates & Articles"} />
           </div>
           <div className="mt-[80px] grid grid-cols-3 gap-x-9 ">
             {blogData.map((blog) => (

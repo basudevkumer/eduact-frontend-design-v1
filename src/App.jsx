@@ -2,6 +2,7 @@ import React from "react";
 import Rootlayout from "./rootlayout/Rootlayout";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
+import About from "./page/About";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Routes>
         <Route element={<Rootlayout />}>
           <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>

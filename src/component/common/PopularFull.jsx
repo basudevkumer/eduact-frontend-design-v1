@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import { allImages } from "../../hepler/imageprovider";
 import CarouselOne from "./CarouselOne";
+import SectionHeader from "./SectionHeader";
 
 const PopularFull = () => {
   const { homeAboutFram, paperImage, roketImage } = allImages;
@@ -17,16 +18,10 @@ const PopularFull = () => {
       <Container>
         <div>
           <div className="flex flex-col items-center gap-y-6">
-            <div className="flex items-center gap-x-4">
-              <h6 className="text-tarnary heading-six">Popular Course</h6>
-
-              <figure>
-                <img src={homeAboutFram} alt="homeAboutFram" />
-              </figure>
-            </div>
-            <h3 className="text-primary heading-three max-w-[592px] text-center">
-              Featured Course On This Month
-            </h3>
+            <SectionHeader
+              title={"Popular Course"}
+              subTitle={"    Featured Course On This Month"}
+            />
           </div>
           <div className="mt-[80px]">
             <CarouselOne />
