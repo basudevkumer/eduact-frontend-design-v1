@@ -10,11 +10,12 @@ import {
   FiMessageSquare,
   FiSend,
 } from "react-icons/fi";
-import Container from "../common/Container";
-import SectionHeader from "../common/SectionHeader";
-import Button from "../common/Button";
-import allIcons from "../../hepler/iconProvider";
-import ContactCard from "../common/ContactCard";
+import Container from "../../common/Container";
+import SectionHeader from "../../common/SectionHeader";
+import Button from "../../common/Button";
+import allIcons from "../../../hepler/iconProvider";
+import ContactCard from "../../common/ContactCard";
+import Maps from "../map/Index";
 
 // ===================== ZOD SCHEMA =====================
 const contactSchema = z.object({
@@ -183,6 +184,9 @@ const ContactUS = () => {
           ))}
         </div>
       </Container>
+      <div>
+        <Maps />
+      </div>
     </section>
   );
 };

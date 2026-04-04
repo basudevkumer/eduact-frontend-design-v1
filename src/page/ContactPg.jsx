@@ -1,5 +1,4 @@
-import ContactUS from "../component/contactUs/Index";
-
+import ContactUS from "../component/contact/contactUs/Index";
 
 const ContactPg = () => {
   return (
