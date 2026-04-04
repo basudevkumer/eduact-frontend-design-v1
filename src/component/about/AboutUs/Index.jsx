@@ -1,32 +1,8 @@
 import React from "react";
-import Container from "../common/Container";
-import Images from "../common/Images";
-import { allImages } from "../../hepler/imageprovider";
-import SectionHeader from "../common/SectionHeader";
-
-// Mission Icon
-const MissionIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="20" cy="20" r="19" stroke="#4f5de4" strokeWidth="2" />
-    <circle cx="20" cy="20" r="10" stroke="#4f5de4" strokeWidth="2" />
-    <circle cx="20" cy="20" r="3" fill="#4f5de4" />
-    <line x1="20" y1="1" x2="20" y2="10" stroke="#4f5de4" strokeWidth="2" />
-    <line x1="20" y1="30" x2="20" y2="39" stroke="#4f5de4" strokeWidth="2" />
-  </svg>
-);
-
-// Vision Icon
-const VisionIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="20" cy="20" r="19" stroke="#4f5de4" strokeWidth="2" />
-    <path d="M20 12 L28 28 L20 24 L12 28 Z" stroke="#4f5de4" strokeWidth="2" fill="none" />
-    <circle cx="20" cy="20" r="3" stroke="#4f5de4" strokeWidth="1.5" fill="none" />
-    <line x1="20" y1="1" x2="20" y2="7" stroke="#4f5de4" strokeWidth="2" />
-    <line x1="20" y1="33" x2="20" y2="39" stroke="#4f5de4" strokeWidth="2" />
-    <line x1="1" y1="20" x2="7" y2="20" stroke="#4f5de4" strokeWidth="2" />
-    <line x1="33" y1="20" x2="39" y2="20" stroke="#4f5de4" strokeWidth="2" />
-  </svg>
-);
+import Container from "../../common/Container";
+import Images from "../../common/Images";
+import { allImages } from "../../../hepler/imageprovider";
+import SectionHeader from "../../common/SectionHeader";
 
 const AboutUs = () => {
   const { homeAboutBanner, mission, vision } = allImages;
@@ -65,11 +41,15 @@ const AboutUs = () => {
               {/* Our Mission */}
               <div className="space-y-5">
                 <div className=" flex gap-x-[29px]  items-center ">
-                  <Images src={mission} height={50} width={50} alt="mission icon" />
-                   <h4 className="heading-six text-primary mb-3">Our Mission</h4>
+                  <Images
+                    src={mission}
+                    height={50}
+                    width={50}
+                    alt="mission icon"
+                  />
+                  <h4 className="heading-six text-primary mb-3">Our Mission</h4>
                 </div>
                 <div>
-                 
                   <p className="paragraph-regular text-secondary">
                     It uses a dictionary of over 200 Latin words, combined with
                     a handful of model sentence structures, to generate Lorem
@@ -85,7 +65,12 @@ const AboutUs = () => {
               {/* Our Vision */}
               <div className="space-y-5">
                 <div className=" flex gap-x-[29px]  items-center ">
-                  <Images src={vision} height={50} width={50} alt="vision icon" />
+                  <Images
+                    src={vision}
+                    height={50}
+                    width={50}
+                    alt="vision icon"
+                  />
                   <h4 className="heading-six text-primary mb-3">Our Vision</h4>
                 </div>
                 <div>
