@@ -7,6 +7,9 @@ import { MdVideoLibrary } from "react-icons/md";
 import { PiNetworkFill } from "react-icons/pi";
 
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { BsTelephone } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
+import { GoLocation } from "react-icons/go";
 
 const allIcons = {
   rightArrow: <FaArrowRightLong />,

@@ -2,11 +2,19 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { FiUser, FiMail, FiPhone, FiEdit, FiMessageSquare, FiSend } from "react-icons/fi";
+import {
+  FiUser,
+  FiMail,
+  FiPhone,
+  FiEdit,
+  FiMessageSquare,
+  FiSend,
+} from "react-icons/fi";
 import Container from "../common/Container";
 import SectionHeader from "../common/SectionHeader";
 import Button from "../common/Button";
 import allIcons from "../../hepler/iconProvider";
+import ContactCard from "../common/ContactCard";
 
 // ===================== ZOD SCHEMA =====================
 const contactSchema = z.object({
@@ -21,11 +29,20 @@ const contactSchema = z.object({
 });
 
 // ===================== INPUT COMPONENT =====================
-const InputField = ({ label, register, error, type = "text", icon: Icon, ...rest }) => (
+const InputField = ({
+  label,
+  register,
+  error,
+  type = "text",
+  icon: Icon,
+  ...rest
+}) => (
   <div className="flex flex-col gap-y-1">
-    <div className={`flex items-center gap-x-3 bg-quinary px-5 py-4 border ${
+    <div
+      className={`flex items-center gap-x-3 bg-quinary px-5 py-4 border ${
         error ? "border-red-400" : "border-transparent"
-      } focus-within:border-tarnary transition-colors duration-200`}>
+      } focus-within:border-tarnary transition-colors duration-200`}
+    >
       {Icon && <Icon className="text-secondary shrink-0" size={18} />}
       <input
         type={type}
@@ -60,8 +77,8 @@ const ContactUS = () => {
     console.log("Form Data:", data);
     reset();
   };
-  
-   const { contactData } =  allIcons 
+
+  const { contactData } = allIcons;
 
   return (
     <section>
@@ -113,10 +130,15 @@ const ContactUS = () => {
 
               {/* Row 3: Message */}
               <div className="flex flex-col gap-y-1">
-                <div className={`flex items-start gap-x-3 bg-quinary px-5 py-4 border ${
+                <div
+                  className={`flex items-start gap-x-3 bg-quinary px-5 py-4 border ${
                     errors.message ? "border-red-400" : "border-transparent"
-                  } focus-within:border-tarnary transition-colors duration-200`}>
-                  <FiMessageSquare className="text-secondary shrink-0 mt-1" size={18} />
+                  } focus-within:border-tarnary transition-colors duration-200`}
+                >
+                  <FiMessageSquare
+                    className="text-secondary shrink-0 mt-1"
+                    size={18}
+                  />
                   <textarea
                     placeholder="Write a Message"
                     rows={6}
@@ -144,14 +166,21 @@ const ContactUS = () => {
               {/* Success Message */}
               {isSubmitSuccessful && (
                 <p className="text-center text-green-500 paragraph-semi">
-                   Message sent successfully!
+                  Message sent successfully!
                 </p>
               )}
             </form>
           </div>
-          <div>
-
-          </div>
+        </div>
+        <div className="grid grid-cols-3 gap-x-5 py-[120px]">
+          {contactData.map((item) => (
+            <ContactCard
+              key={item.id}
+              icon={item.icon}
+              label={item.label}
+              value={item.value}
+            />
+          ))}
         </div>
       </Container>
     </section>
