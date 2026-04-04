@@ -3,6 +3,7 @@ import Bredcrumb from "../component/common/Bredcrumb";
 import AboutUs from "../component/about/AboutUs/Index";
 import StatsBar from "../component/about/StatsBar/Index";
 import AboutPopular from "../component/home/aboutPopular/Index";
+import HomeTeam from "../component/home/team/Index";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       <div className="py-[120px]">
         <AboutPopular />
       </div>
+      <HomeTeam />
     </>
   );
 };
